@@ -41,7 +41,7 @@ podTemplate(label: 'mypod',
 				cat key.pem
 				pwd
 				ls -l
-		cd /home/jenkins/workspace/Inventorymysql/charts
+		cd /home/jenkins/workspace/Inventory-mysql/charts
 		 
 		helm package ibmcase-inventory-mysql
                 helm install --tls -n bluecompute-inventory-mysql ibmcase-inventory-mysql
